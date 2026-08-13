@@ -1,0 +1,33 @@
+PORTAFOLIO — Davicho García
+
+CÓMO USARLO
+- Abrí "index.html" con doble clic. Funciona sin internet.
+- Las galerías cargan las fotos desde la carpeta "assets/".
+
+ESTRUCTURA
+- index.html            → el sitio completo (HTML + CSS + JS)
+- assets/gallery/<proyecto>/01.jpg, 02.jpg ...  → fotos de cada galería
+- assets/covers/        → portadas provisionales de Importadora Tomebamba
+
+GALERÍAS YA CARGADAS (con tus imágenes)
+- Marca: grupo-confort, gad-san-fernando, renace, sajha
+- Editorial: justicia
+- Redes: vitefama, garage-84, capriatto, fabian-moreno, black-silver, la-cava, kamikaze-samurai
+- Fotografía: herrero-cafe, mint-sweet, charite-just-bunny
+- Web: mbpc-consultora, centro-apoyo
+
+PENDIENTE — IMPORTADORA TOMEBAMBA
+Las 8 galerías de Tomebamba están vacías (muestran placeholders "Próximamente").
+Cuando envíes las imágenes, se colocan en:
+  assets/gallery/tomebamba-innova-packaging/
+  assets/gallery/tomebamba-innova-campanas/
+  assets/gallery/tomebamba-linea-hogar/
+  assets/gallery/tomebamba-hisense/
+  assets/gallery/tomebamba-itsa/
+  assets/gallery/tomebamba-producto/
+  assets/gallery/tomebamba-presentaciones/
+  assets/gallery/tomebamba-viral/
+
+CAMBIAR LA PORTADA DE UN PROYECTO
+La portada de cada card es, por defecto, la primera imagen de su galería.
+Si querés otra, se ajusta en el "src" del <img> dentro de index.html.
